@@ -7,18 +7,41 @@ body {
 /* ヘッダー */
 #header {
     height: 5%;
-    background-color:black;
+    background-color: #55c500;
 }
 #header-title{
+    height: 100%;
     color: #fff;
     padding-top: 5px;
     padding-left: 10px;
 }
 /* 地図 */
-#map {
-    height: 80%;
+#map-area {
+    height: 85%;
+    display: flex;
 }
+#map {
+    width: 85%;
+    /* width: 100%; */
+    height: 100%;
+}
+/* サイドバー */
+#sidebar{
+    width: 15%;
+    height: 100%;
+}
+#button-area{
+    width: 100%;
+    height: 100%;
+}
+/* #layer-area{
+    width: 100%;
+    height: 50%;  
+} */
 /* シェルター情報 */
 #shelter-info{
-    height: 15%;
+    height: 10%;
+}
+#shelter-info-textarea{
+    height: 100%;
 }
