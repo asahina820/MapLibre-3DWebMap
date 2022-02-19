@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
     <!-- ヘッダー -->
     <div id="header">
-        <h2 id="header-title">3Dハザードマップ</h2>
+        <h2 id="header-title">わかりやすい避難地図</h2>
     </div>
     <!-- 地図 -->
     <div id="map-area">
@@ -36,7 +37,7 @@
             <i class="bullhorn icon"></i>
             <div class="content">
               <div class="header">避難所情報</div>
-              <p>この近くの避難所は、○○○○です。</p>
+              <p>この近くの避難所は、<span id="shelter-name"></span>です。こちらの避難所に避難所してください！</p>
             </div>
           </div>
     </div>
